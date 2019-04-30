@@ -1,0 +1,83 @@
+.navbar {
+  background-color: #2a862e;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+
+.navbar a {
+  color: white;
+}
+
+/* .navbar a:hover {
+color: #cee8cf;
+} */
+
+.nav > li > a:hover{
+    background-color:#cee8cf;
+    color: #003300;
+}
+
+body a {
+  color: #544199;
+}
+
+body a:hover {
+  color: #003300;
+}
+
+th {
+  font-family: 'Princess Sofia', cursive;
+  color: #c10060;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: 'Princess Sofia', cursive;
+  color: #c10060;
+}
+
+#header img {
+ width: 100%;
+ height: auto;
+}
+
+#header {
+  margin: auto;
+}
+
+.title {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: white;
+}
+
+.container-fluid {
+  width: 70%;
+}
+
+body {
+  background-color: #cee8cf;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: #003300;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #544199;
+    border-color: #3D2B7F;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #2a862e;
+    border-color: #003300;
+}
