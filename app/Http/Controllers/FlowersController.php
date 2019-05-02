@@ -17,9 +17,9 @@ class FlowersController extends Controller
 
         if ($request->query('search')) {
           $query->where('Name', 'LIKE', '%' . $request->query('search') . '%');
-          $query->orWhere('BloomgPeriod', 'LIKE', '%' . $request->query('search') . '%');
+          $query->orWhere('BloomingPeriod', 'LIKE', '%' . $request->query('search') . '%');
           $query->orWhere('Scent', 'LIKE', '%' .  $request->query('search') . '%');
-          $query->orWhere('ScientificName', '%' .  'LIKE', $request->query('search') . '%');
+          $query->orWhere('ScientificName', 'LIKE', '%' .  $request->query('search') . '%');
         }
 
         $flowers = $query->get();
